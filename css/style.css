@@ -1,0 +1,405 @@
+
+:root{
+    --bg1: #150035;
+    --bg2: #0b001b;
+    --cfd: #fdb125; 
+    --ce0: #e07e1e; 
+    --cfc: #fcb100; 
+    --c94: #944bff;
+    --cff3: #ff39dc;
+    --cff0: #ff00e4;
+    --c57: #570dc8;
+    --c9e: #9e4efc;
+    --ca6: #a60084;
+    --c1f: #1f004f;
+}
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+img{
+    vertical-align: middle;
+}
+
+
+/* ===============   css commons    =================== */
+
+.anton{
+    font-family: 'Anton', sans-serif;
+}
+
+.nunito{
+    font-family: 'Nunito', sans-serif;
+}
+
+.fw-sb{
+    font-weight: 600;
+}
+.fw-r{
+    font-weight: 400;
+}
+.fw-b{
+    font-weight: 700;
+}
+
+
+
+.fs-20{
+    font-size: 20px;
+}
+.fs-331{
+    font-size: 331px;
+}
+.fs-16{
+    font-size: 16px;
+}
+.fs-25{
+    font-size: 25px;
+}
+.fs-24{
+    font-size: 24px;
+}
+.fs-50{
+    font-size: 50px;
+}
+.fs-32{
+    font-size: 32px;
+}
+.fs-48{
+    font-size: 48px;
+}
+.fs-14{
+    font-size: 14px;
+}
+.fs-40{
+    font-size: 40px;
+}
+
+/* ================   common class    =================== */
+
+/* ================    common structure    ================= */
+header h3{
+    background: linear-gradient(to top, #FCB100 0%, #FDB125 57%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.cta-btn{
+    background: linear-gradient(0deg, #570dc8 0%, #9e4efc 100%);
+    line-height: 54px;
+    padding: 0 28px !important;
+    box-shadow: 0px 6px 1px 0px #3a0090;
+    border: none;
+    outline: none;
+}
+.cta-btn:hover{
+    background: linear-gradient(0deg, #a60084 0%, #ff39dc 100%);
+    box-shadow: 0px 6px 1px 0px #661355;
+}
+
+.cta-btn .enter1{
+    color: #fff;
+    text-shadow: 5px 5px 2px #5813b8;
+}
+.cta-btn:hover .enter1{
+    text-shadow: 5px 5px 2px #a60084;
+}
+/* ================    common structure    ================= */
+
+/* ===============     navbar    ================ */
+
+.navbar{
+    z-index: 9999999;
+}
+.navbar .navbar-nav{
+    position: absolute;
+    left: 320px;
+    top: 87px;
+    
+
+}
+.navbar-light .navbar-nav .nav-link{
+    padding: 0 26px !important;
+}
+.navbar-light .navbar-nav .nav-item:first-child .nav-link{
+    padding-left: 0 !important;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #944bff;
+    transition: all ease 0.4s;
+    -webkit-transition: all ease 0.4s;
+    -moz-transition: all ease 0.4s;
+    -ms-transition: all ease 0.4s;
+    -o-transition: all ease 0.4s;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #ff39dc;
+
+}
+.navbar-light .navbar-nav .nav-link.active{
+    color: #ff39dc;
+}
+.navbar .cta-btn{
+    background: linear-gradient(0deg, #570dc8 0%, #9e4efc 100%);
+    line-height: 50px;
+    padding: 0 30px !important;
+    box-shadow: 0px 6px 1px 0px #3a0090;
+    border: none;
+    margin-top: 72px;
+}
+.navbar .cta-btn.signup{
+    margin-right: 20px;
+}
+.navbar .cta-btn:hover{
+    background: linear-gradient(0deg, #a60084 0%, #ff39dc 100%);
+    box-shadow: 0px 6px 1px 0px #661355;
+}
+.navbar .cta-btn .enter1{
+    color: #fff;
+    text-shadow: 5px 5px 2px #5813b8;
+}
+.navbar .cta-btn:hover .enter1{
+    text-shadow: 5px 5px 2px #a60084;
+}
+ /* ===============     navbar    ================ */
+
+/* ===============     banner    ================ */
+#banner{
+    background: #150035 !important;
+    padding-bottom: 170px;
+}
+#banner .banner-img img{
+    margin-left: -180px;
+    margin-top: 178px;
+}
+#banner .banner-text{
+    margin-top: 260px;
+    margin-left: -85px;
+    position: relative;
+}
+#banner .banner-text h1{
+    margin-top: -48px;
+    margin-left: -10px;
+    margin-bottom: -25px !important;
+    background: linear-gradient(to top, #FCB100 0%, #E07E1E 50%, #FDB125 57%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+#banner .banner-text p:last-of-type{
+    padding-right: 60px;
+    
+}
+#banner .banner-text .cta-btn{
+    background: linear-gradient(0deg, #570dc8 0%, #9e4efc 100%);
+    line-height: 54px;
+    padding: 0 28px !important;
+    box-shadow: 0px 6px 1px 0px #3a0090;
+    border: none;
+    margin-left: 165px;
+    margin-top: 25px;
+    
+    
+}
+#banner .banner-text .cta-btn:hover{
+    background: linear-gradient(0deg, #a60084 0%, #ff39dc 100%);
+    box-shadow: 0px 6px 1px 0px #661355;
+}
+
+#banner .banner-text .cta-btn .enter1{
+    color: #fff;
+    text-shadow: 5px 5px 2px #5813b8;
+}
+#banner .banner-text .cta-btn:hover .enter1{
+    text-shadow: 5px 5px 2px #a60084;
+}
+/* ===============     banner    ================ */
+
+/* ===============     steps starts    ================ */
+
+  
+#steps .steps-content{
+    position: absolute;
+    left: 0;
+    top: -100px;
+}
+#steps .steps-shadow{
+    background: #3a0090;
+    padding-bottom: 6px;
+    border-bottom-left-radius: 5px;
+    clip-path: polygon(0 2%, 100% 0, 100% 100%, 0 100%);
+    
+}
+#steps .steps-item{
+    
+    background: linear-gradient(55deg, rgba(158,78,252,1) 0%, rgba(87,13,200,1) 100%);
+    box-shadow: inset 10px 0px 50px 0px rgba(31, 7, 67, 0.5);
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 10px;
+    clip-path: polygon(0 2%, 100% 0, 100% 100%, 0 100%);
+}
+#steps .steps-item .steps-text{
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    /* padding-left: 50px; */
+    /* padding-right: 50px; */
+}
+#steps .steps-item .steps-text h3{
+    background: linear-gradient(to top, #FCB100 0%, #E07E1E 50%, #FDB125 57%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-shadow: 0px 3px 2px rgba(17, 0, 16, 0.4);
+    /* text-shadow: none; */
+
+}
+#steps .steps-item .steps-text h4{
+    padding-top: 20px;
+    padding-bottom: 5px;
+    text-shadow: 4px 6px 0px rgba(88, 19, 184, 0.4);
+}
+/* ===============     steps ends      ================ */
+
+/* ===============     related games starts      ================ */
+#games{
+    padding-top: 160px;
+    background: #0b001b;
+    padding-bottom: 100px;
+}
+#games img{
+    width: 100%;
+}
+#games .related-games{
+    overflow: hidden;
+    margin-top: 50px;
+}
+#games .game-overlay{
+    background: rgba(21, 0, 53, 0.85);
+    top: -100%;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+#games .related-games:hover .game-overlay{
+    top: 0%;
+}
+#games .game-overlay h4{
+    padding-top: 160px;
+    padding-bottom: 45px;
+}
+
+/* ===============      related games ends      ================ */
+
+/* ===============      spin starts      ================ */
+#spin{
+    background: #150035;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+#spin .spin-img img{
+    margin-left: -30px;
+}
+#spin .spin-content{
+    padding-left: 40px;
+}
+#spin header{
+    padding-top: 80px;
+}
+#spin .spin-text p{
+    line-height: 26px;
+}
+#spin .spin-text p:first-of-type{
+    padding-top: 55px ;
+    padding-bottom: 30px;
+}
+#spin .spin-text p:last-of-type{
+    padding-bottom: 55px;
+}
+/* ===============      spin ends        ================ */
+
+/* ===============      spin ends        ================ */
+#price{
+    background: #0b001b;
+    padding-bottom: 115px;
+}
+#price header{
+    margin-bottom: 85px;
+}
+#price .price-plan{
+    background: linear-gradient(0deg, #570dc8 0%, #9e4efc 100%);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+    position: relative;
+}
+#price .price-plan:hover{
+    margin-top: 30px;
+}
+#price .price-plan h5{
+    line-height: 54px;
+    background: linear-gradient(0deg, #a60084 0%, #ff39dc 100%);
+    text-shadow: 5px 5px 2px #a60084;
+    border-bottom: 6px solid rgba(102, 19, 85, 0.8);
+    /*display: none;
+    */opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+}
+#price .price-plan:hover h5{
+    /* display: block; */
+    opacity: 1;
+    top: -54px;
+}
+#price .price-plan h4:first-of-type{
+    padding-top: 55px;
+    padding-bottom: 15px;
+    text-shadow: 5px 5px 2px #5813b8;
+}
+#price .price-plan h6{
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(11, 0, 27, 0.6);
+}
+#price .price-plan p:first-of-type{
+    padding-top: 25px;
+}
+#price .price-plan p{
+    padding-top: 15px;
+}
+#price .price-plan p:last-of-type{
+    padding-bottom: 25px;
+}
+#price .price-plan .cta-btn{
+    margin-bottom: -27px;
+    margin-left: 90px;
+}
+/* ===============      spin ends        ================ */
