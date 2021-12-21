@@ -11,6 +11,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Nunito:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
     <!-- bootstrap css -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- scrollbox css -->
+    <link rel="stylesheet" href="css/scrollbox.min.css">
     <!-- slick css -->
     <link rel="stylesheet" href="css/slick.css">
     <!-- ============   main css    =============== -->
@@ -287,6 +289,172 @@
     <!-- ====================    price plan ends          ==================== -->
 
     <!-- ====================    info starts          ==================== -->
+    <section id="info">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7">
+            <div class="info-1">
+              <header>
+                <h3 class="mb-0 text-capitalize anton fw-r fs-40">Frequently Ask Questions</h3>
+              </header>
+
+              <div class="accordion" id="accordionExample">
+
+                <div class="accordion-item border">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button position-relative  text-white nunito fw-sb fs-20" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      01. How can play these games (for begineer)?	
+                      <i class="fas fa-sort-down fs-20"></i>
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <p class="mb-0 text-white nunito fw-r fs-16">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incnt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed position-relative  text-white nunito fw-sb fs-20" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      02. If I play games and lost by any chance, How I&#39;ll pay?
+                      <i class="fas fa-sort-down fs-20"></i>
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <p class="mb-0 text-white nunito fw-r fs-16">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incnt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed position-relative  text-white nunito fw-sb fs-20" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      03. What are the benefits for gambiling?
+                      <i class="fas fa-sort-down fs-20"></i>
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <p class="mb-0 text-white nunito fw-r fs-16">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incnt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingFour">
+                    <button class="accordion-button collapsed position-relative  text-white nunito fw-sb fs-20" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                      04. What are the benefits for gambiling?
+                      <i class="fas fa-sort-down fs-20"></i>
+                    </button>
+                  </h2>
+                  <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <p class="mb-0 text-white nunito fw-r fs-16">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incnt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+
+
+            </div>
+          </div>
+          <div class="col-lg-5">
+
+            <header>
+              <h3 class="mb-0 text-capitalize anton fw-r fs-40">Today&#39;s Tournaments</h3>
+            </header>
+            <div class="time">
+              <h5 class="mb-0 text-white text-capitalize nunito fw-sb fs-20">time remaining:</h5>
+
+              <div id="countdown">
+                <div class="hours text-center ticking">
+                  <span class="coun-down1 mb-0 text-capitalize nunito fw-sb fs-20">23</span>
+                  <p class="mb-0 text-capitalize nunito fw-sb fs-20">Hours</p>
+              </div>
+              <div class="mins text-center ticking">                            
+                <span class="coun-down2 mb-0 text-capitalize nunito fw-sb fs-20">59</span>
+                  <p class="mb-0 text-capitalize nunito fw-sb fs-20">Mins</p>
+              </div>
+              <div class="secs text-center ticking">
+                <span class="coun-down3 mb-0 text-capitalize nunito fw-sb fs-20">59</span>
+                  <p class="mb-0 text-capitalize nunito fw-sb fs-20">Secs</p>
+                </div>
+                
+              </div>
+            </div>
+            
+            <div id="game-rank">
+
+              <div class="rank-item d-flex justify-content-between align-items-center">
+                <p class="mb-0 text-white text-capitalize nunito fw-sb fs-16"><span class="serial">01.</span> rozina khan</p>
+                <img src="images/flags/1.png" alt="flag">
+                <p class="mb-0 text-white text-capitalize nunito fw-sb fs-16">$365.25</p>
+              </div>
+
+              <div class="rank-item d-flex justify-content-between align-items-center">
+                <p class="mb-0 text-white text-capitalize nunito fw-sb fs-16"><span class="serial">02.</span> harry potter</p>
+                <img src="images/flags/2.png" alt="flag">
+                <p class="mb-0 text-white text-capitalize nunito fw-sb fs-16">$345.25</p>
+              </div>
+
+              <div class="rank-item d-flex justify-content-between align-items-center">
+                <p class="mb-0 text-white text-capitalize nunito fw-sb fs-16"><span class="serial">03.</span> hermony granger</p>
+                <img src="images/flags/3.png" alt="flag">
+                <p class="mb-0 text-white text-capitalize nunito fw-sb fs-16">$289.25</p>
+              </div>
+
+              <div class="rank-item d-flex justify-content-between align-items-center">
+                <p class="mb-0 text-white text-capitalize nunito fw-sb fs-16"><span class="serial">04.</span> ron weasley</p>
+                <img src="images/flags/4.png" alt="flag">
+                <p class="mb-0 text-white text-capitalize nunito fw-sb fs-16">$255.25</p>
+              </div>
+
+              <div class="rank-item d-flex justify-content-between align-items-center">
+                <p class="mb-0 text-white text-capitalize nunito fw-sb fs-16"><span class="serial">05.</span> prof. dumbledore</p>
+                <img src="images/flags/5.png" alt="flag">
+                <p class="mb-0 text-white text-capitalize nunito fw-sb fs-16">$175.25</p>
+              </div>
+
+              <div class="rank-item d-flex justify-content-between align-items-center">
+                <p class="mb-0 text-white text-capitalize nunito fw-sb fs-16"><span class="serial">06.</span> rozina khan</p>
+                <img src="images/flags/1.png" alt="flag">
+                <p class="mb-0 text-white text-capitalize nunito fw-sb fs-16">$365.25</p>
+              </div>
+
+              <div class="rank-item d-flex justify-content-between align-items-center">
+                <p class="mb-0 text-white text-capitalize nunito fw-sb fs-16"><span class="serial">07.</span> harry potter</p>
+                <img src="images/flags/2.png" alt="flag">
+                <p class="mb-0 text-white text-capitalize nunito fw-sb fs-16">$345.25</p>
+              </div>
+
+              <div class="rank-item d-flex justify-content-between align-items-center">
+                <p class="mb-0 text-white text-capitalize nunito fw-sb fs-16"><span class="serial">08.</span> hermony granger</p>
+                <img src="images/flags/3.png" alt="flag">
+                <p class="mb-0 text-white text-capitalize nunito fw-sb fs-16">$289.25</p>
+              </div>
+
+              <div class="rank-item d-flex justify-content-between align-items-center">
+                <p class="mb-0 text-white text-capitalize nunito fw-sb fs-16"><span class="serial">09.</span> ron weasley</p>
+                <img src="images/flags/4.png" alt="flag">
+                <p class="mb-0 text-white text-capitalize nunito fw-sb fs-16">$255.25</p>
+              </div>
+
+              <div class="rank-item d-flex justify-content-between align-items-center">
+                <p class="mb-0 text-white text-capitalize nunito fw-sb fs-16"><span class="serial">10.</span> prof. dumbledore</p>
+                <img src="images/flags/5.png" alt="flag">
+                <p class="mb-0 text-white text-capitalize nunito fw-sb fs-16">$175.25</p>
+              </div>
+
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- ====================    info   ends          ==================== -->
 
     <!-- ====================    subscribe starts          ==================== -->
@@ -390,6 +558,8 @@
 
     <script src="js/jquery-2.2.4.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/scrollbox.min.js"></script>
+    <script src="js/countdown.jquery.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/custom.js"></script>
 
