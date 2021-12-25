@@ -1,0 +1,723 @@
+
+
+/* ===============   extra small device    ================== */
+@media (max-width: 575px){
+
+     /* ==========   common    ============ */
+     header h3{
+        font-size: 40px !important;
+    }
+    /* ==========   common    ============ */
+
+   /* ==========   navbar    ============ */
+     .navbar .full-nav{
+        background: rgb(35, 18, 95);
+    }
+  
+    .navbar .navbar-nav{
+        position: unset;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        transition: all linear 0.4s;
+        -webkit-transition: all linear 0.4s;
+        -moz-transition: all linear 0.4s;
+        -ms-transition: all linear 0.4s;
+        -o-transition: all linear 0.4s;
+    }
+    .navbar .navbar-toggler{
+        position: absolute;
+        top: 80px;
+        right: 12px;
+        border-color: #612bdd;
+        color: #612bdd;
+    }
+    .navbar .navbar-toggler:hover{
+        color: #7c48f5;
+        border-color: #7c48f5;
+    }
+    .navbar .navbar-toggler i{
+        font-size: 30px;
+        
+    }
+    .navbar .navbar-toggler:focus{
+        box-shadow: none;
+    }
+    .navbar-light .navbar-nav .nav-item {
+        padding-bottom: 10px;
+    } 
+    .navbar-light .navbar-nav .nav-link{
+        font-size: 18px;
+    }
+    .navbar-light .navbar-nav .nav-item:first-child .nav-link{
+        padding-left: 26px !important;
+        padding-top: 10px !important;
+    }
+    .navbar .buttons-1{
+        margin-top: 25px;
+        margin-left: -10px;
+        margin-bottom: 20px;
+    }
+    .navbar .cta-btn{
+        line-height: 45px;
+    }
+    /* ==========   navbar    ============ */
+
+    /* ==========   banner    ============= */
+    #banner{
+        position: relative;
+    }
+   
+    #banner .banner-img img{
+        position: absolute;
+        top: -30px;
+        left: 120px;
+        opacity: 0.1;
+    }
+   
+    #banner .banner-text{
+        margin-top: 155px;
+        margin-left: -40px;
+    }
+    #banner .banner-text h1{
+        font-size: 180px;
+        margin-top: -20px;
+        margin-left: 65px;
+        padding-bottom: 15px;
+
+    }
+    #banner .banner-text p:first-of-type{
+        margin-left: 70px;
+    }
+    #banner .banner-text p:last-of-type{
+        line-height: 22px;
+        margin-left: 45px;
+        padding: 0 5px;
+        
+    }
+    #banner .banner-text .cta-btn{
+        font-size: 16px;
+        margin-left: 135px;
+        line-height: 48px;
+        margin-top: 15px;
+        
+    }
+    /* ==========   banner    ============= */
+
+    /* ===========   games    ============== */
+
+    #games{
+        padding-bottom: 70px;
+    }
+    #games .game-overlay h4{
+        padding-top: 70px;
+        padding-bottom: 45px;
+    }
+    #games .game-overlay .cta-btn{
+        font-size: 18px;
+        line-height: 45px;
+        margin-top: -15px;
+    }
+    
+    /* ===========   games   ============== */
+
+    /* ===========   spin   ============== */
+    #spin{
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+    
+    #spin header{
+        padding-top: 0;
+    }
+    #spin .spin-content{
+        margin-bottom: 50px;
+        padding-left: 20px;
+    }
+    #spin header h3{
+        font-size: 40px;
+    }
+    #spin .spin-text p{
+        font-size: 15px;
+    }
+    #spin .spin-text p:first-of-type{
+        padding-top: 25px ;
+        padding-bottom: 15px;
+    }
+    #spin .spin-text .cta-btn{
+        font-size: 18px;
+        line-height: 50px;
+        margin-top: -40px;
+    }
+    #spin .spin-img img{
+        margin-left: -10px;
+    }
+    /* ===========   spin   ============== */
+
+     /* ===========   price   ============== */
+     #price{
+        padding-top: 60px;
+    }
+    #price header{
+        margin-bottom: 45px;
+    }
+    #price .price-plan{
+        width: 80%;
+        text-align: center;
+        margin-left: 30px;
+    }
+    #price .price-plan h4:first-of-type{
+        padding-top: 35px;
+        font-size: 30px;
+        padding-bottom: 10px;
+    }
+    #price .price-plan h4:last-of-type{
+        font-size: 45px;
+    }
+    #price .price-plan p{
+        padding-top: 10px;
+        font-size: 15px;
+    }
+    #price .price-plan .cta-btn{
+        font-size: 18px;
+        line-height: 45px;
+        margin-bottom: -23px;
+        width: 160px;
+        margin-left: 10px;
+
+    }
+    /* ===========   price   ============== */
+
+
+    /* ===========   info   ============== */
+    #info{
+        padding-top: 0;
+        padding-bottom: 70px;
+    }
+
+    #info .scrollbox-bar{
+        display: none ;
+    }
+    #info .scrollbox-vertical-rail{
+        display: none;
+    }
+    #info header:last-of-type{
+        padding-top: 55px;
+    }
+    #info .accordion .accordion-button{
+        font-size: 18px;
+        padding-right: 43px;
+    }
+    #info .time h5{
+        margin-bottom: 130px !important;
+        
+    }
+    #info #countdown{
+        top: 100px;
+        right: 35px;
+    }
+    #info #game-rank .rank-item p{
+        font-size: 14px;
+    }
+    /* ===========   info   ============== */
+
+    /* ===========   subscribe   ============== */
+    #subscribe button{
+        right: 14px;
+        top: 54px;
+    }
+    #subscribe .e-mail1{
+        width: 235px;
+    }
+    #subscribe .payment{
+        margin-left: 0;
+        margin-top: 25px;
+    }
+    #subscribe h4{
+        padding-bottom: 15px;
+    }
+    /* ===========   subscribe   ============== */
+
+    /* ===========   footer    ============= */
+    
+    footer .item2 .s-ul{
+        right: 35px;
+    }
+
+    footer .footer-end p{
+        font-size: 15px;
+    }
+    
+    /* ===========   footer    ============= */
+}
+
+
+
+/* ===============    small device    ================== */
+@media (min-width:576px) and (max-width: 767px){
+
+     /* ==========   common    ============ */
+     header h3{
+        font-size: 45px !important;
+    }
+    /* ==========   common    ============ */
+
+   /* ==========   navbar    ============ */
+   .navbar .full-nav{
+    background: rgb(35, 18, 95);
+}
+
+.navbar .navbar-nav{
+    position: unset;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+}
+.navbar .navbar-toggler{
+    position: absolute;
+    top: 80px;
+    right: 12px;
+    border-color: #612bdd;
+    color: #612bdd;
+}
+.navbar .navbar-toggler:hover{
+    color: #7c48f5;
+    border-color: #7c48f5;
+}
+.navbar .navbar-toggler i{
+    font-size: 35px;
+    
+}
+.navbar .navbar-toggler:focus{
+    box-shadow: none;
+}
+.navbar-light .navbar-nav .nav-item {
+    padding-bottom: 10px;
+} 
+.navbar-light .navbar-nav .nav-item:first-child .nav-link{
+    padding-left: 26px !important;
+    padding-top: 10px !important;
+}
+.navbar .buttons-1{
+    margin-top: 25px;
+    margin-left: -10px;
+    margin-bottom: 20px;
+}
+.navbar .cta-btn{
+    line-height: 45px;
+}
+/* ==========   navbar    ============ */
+
+    /* ==========   banner    ============= */
+    #banner{
+        position: relative;
+    }
+   
+    #banner .banner-img img{
+        position: absolute;
+        top: -30px;
+        left: 120px;
+        opacity: 0.1;
+    }
+   
+    #banner .banner-text{
+        margin-top: 155px;
+        margin-left: -40px;
+    }
+    #banner .banner-text h1{
+        font-size: 240px;
+        margin-top: -20px;
+        margin-left: 65px;
+
+    }
+    #banner .banner-text p:first-of-type{
+        margin-left: -135px;
+    }
+    #banner .banner-text p:last-of-type{
+        line-height: 22px;
+        margin-left: 45px;
+        padding: 0 35px;
+        
+    }
+    #banner .banner-text .cta-btn{
+        font-size: 18px;
+        margin-left: 28px;
+        line-height: 50px;
+        margin-top: 15px;
+    }
+    /* ==========   banner    ============= */
+
+    /* ===========   steps   ============== */
+   
+    #steps .steps-item .steps-text h3{
+        font-size: 43px;
+    }
+    #steps .steps-item .steps-text h4{
+        padding-top: 5px;
+        font-size: 28px;
+    }
+    #steps .steps-item .steps-text p{
+        font-size: 16px;
+        padding: 0 7px;
+    }
+  
+    /* ===========   steps    ============== */    
+
+    /* ===========   games    ============== */
+
+    #games{
+        padding-bottom: 70px;
+    }
+    #games .game-overlay h4{
+        padding-top: 50px;
+        padding-bottom: 45px;
+    }
+    #games .game-overlay .cta-btn{
+        font-size: 18px;
+        line-height: 45px;
+        margin-top: -15px;
+    }
+    
+    /* ===========   games   ============== */
+    
+    /* ===========   spin   ============== */
+    #spin{
+        padding-top: 70px;
+        padding-bottom: 20px;
+    }
+    
+    #spin header{
+        padding-top: 0;
+    }
+    #spin .spin-content{
+        margin-bottom: 50px;
+    }
+    #spin header h3{
+        font-size: 40px;
+    }
+    #spin .spin-text p{
+        font-size: 15px;
+    }
+    #spin .spin-text p:first-of-type{
+        padding-top: 25px ;
+        padding-bottom: 15px;
+    }
+    #spin .spin-text .cta-btn{
+        font-size: 18px;
+        line-height: 50px;
+        margin-top: -40px;
+    }
+    /* ===========   spin   ============== */
+
+    /* ===========   price   ============== */
+    #price{
+        padding-top: 60px;
+    }
+    #price header{
+        margin-bottom: 55px;
+    }
+    #price .price-plan{
+        width: 80%;
+        text-align: center;
+        margin-left: 50px;
+    }
+    #price .price-plan h4:first-of-type{
+        padding-top: 35px;
+        font-size: 30px;
+        padding-bottom: 10px;
+    }
+    #price .price-plan h4:last-of-type{
+        font-size: 45px;
+    }
+    #price .price-plan p{
+        padding-top: 10px;
+        font-size: 15px;
+    }
+    #price .price-plan .cta-btn{
+        font-size: 18px;
+        line-height: 45px;
+        margin-bottom: -23px;
+        width: 160px;
+        margin-left: 10px;
+
+    }
+    /* ===========   price   ============== */
+
+    /* ===========   info   ============== */
+    #info{
+        padding-top: 0;
+        padding-bottom: 70px;
+    }
+
+    #info .scrollbox-bar{
+        display: none ;
+    }
+    #info .scrollbox-vertical-rail{
+        display: none;
+    }
+    #info header:last-of-type{
+        padding-top: 55px;
+    }
+    #info .accordion .accordion-button{
+        font-size: 18px;
+        padding-right: 45px;
+    }
+    /* ===========   info   ============== */
+
+    /* ===========   subscribe   ============== */
+    #subscribe button{
+        right: 49px;
+        top: 54px;
+    }
+    #subscribe .e-mail1{
+        width: 420px;
+    }
+    #subscribe .payment{
+        margin-left: 0;
+        margin-top: 25px;
+    }
+    #subscribe h4{
+        padding-bottom: 15px;
+    }
+    /* ===========   subscribe   ============== */
+
+    /* ===========   footer   ============== */
+    footer .footer-item{
+        margin-bottom: 55px;
+    }
+    footer .item3 .badge p{
+        line-height: 20px;
+    }
+    /* ===========   footer   ============== */
+
+}
+
+
+/* ===============    medium device    ================== */
+@media (min-width:768px) and (max-width: 991px){
+    
+    /* ==========   common    ============ */
+    header h3{
+        font-size: 45px !important;
+    }
+    /* ==========   common    ============ */
+
+    /* ==========   navbar    ============ */
+     .navbar .full-nav{
+        background: rgb(35, 18, 95);
+    }
+  
+    .navbar .navbar-nav{
+        position: unset;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        transition: all linear 0.4s;
+        -webkit-transition: all linear 0.4s;
+        -moz-transition: all linear 0.4s;
+        -ms-transition: all linear 0.4s;
+        -o-transition: all linear 0.4s;
+    }
+    .navbar .navbar-toggler{
+        position: absolute;
+        top: 80px;
+        right: 12px;
+        border-color: #612bdd;
+        color: #612bdd;
+    }
+    .navbar .navbar-toggler:hover{
+        color: #7c48f5;
+        border-color: #7c48f5;
+    }
+    .navbar .navbar-toggler i{
+        font-size: 35px;
+        
+    }
+    .navbar .navbar-toggler:focus{
+        box-shadow: none;
+    }
+    .navbar-light .navbar-nav .nav-item {
+        padding-bottom: 10px;
+    } 
+    .navbar-light .navbar-nav .nav-item:first-child .nav-link{
+        padding-left: 26px !important;
+        padding-top: 10px !important;
+    }
+    .navbar .buttons-1{
+        margin-top: 25px;
+        margin-left: -10px;
+        margin-bottom: 20px;
+    }
+    .navbar .cta-btn{
+        line-height: 45px;
+    }
+    /* ==========   navbar    ============ */
+
+    
+
+    /* ===========   banner   ============= */
+    #banner .banner-img img{
+        margin-left: -45px;
+        margin-top: 160px;
+    }
+    #banner .banner-text{
+        margin-top: 180px;
+        margin-left: 30px;
+    }
+    #banner .banner-text h1{
+        font-size: 180px;
+        margin-top: -20px;
+        margin-left: -5px;
+
+    }
+    
+    #banner .banner-text p:last-of-type{
+        padding-right: 0;
+        line-height: 22px;
+        margin-left: -63px;
+        
+    }
+    #banner .banner-text .cta-btn{
+        font-size: 18px;
+        margin-left: 65px;
+        line-height: 50px;
+        margin-top: 15px;
+    }
+
+    /* ===========   steps   ============== */
+    
+    #steps .steps-item .steps-text h3{
+        font-size: 45px;
+    }
+    #steps .steps-item .steps-text h4{
+        padding-top: 5px;
+        font-size: 30px;
+    }
+    #steps .steps-item .steps-text p{
+        font-size: 15px;
+    }
+    /* ===========   steps    ============== */
+
+    /* ===========   games    ============== */
+
+    #games{
+        padding-bottom: 70px;
+    }
+    #games .game-overlay h4{
+        padding-top: 50px;
+        padding-bottom: 45px;
+    }
+    #games .game-overlay .cta-btn{
+        font-size: 18px;
+        line-height: 45px;
+        margin-top: -15px;
+    }
+    
+    /* ===========   games   ============== */
+
+    /* ===========   spin   ============== */
+    #spin{
+        padding-top: 70px;
+        padding-bottom: 50px;
+    }
+    #spin .spin-content{
+        padding-left: 20px;
+    }
+    #spin header{
+        padding-top: 0;
+    }
+
+    #spin header h3{
+        font-size: 40px;
+    }
+    #spin .spin-text p{
+        font-size: 15px;
+    }
+    #spin .spin-text p:first-of-type{
+        padding-top: 25px ;
+        padding-bottom: 15px;
+    }
+    #spin .spin-text .cta-btn{
+        font-size: 18px;
+        line-height: 50px;
+        margin-top: -40px;
+    }
+    /* ===========   spin   ============== */
+
+    /* ===========   price   ============== */
+    #price{
+        padding-top: 60px;
+    }
+    #price header{
+        margin-bottom: 55px;
+    }
+    #price .price-plan h4:first-of-type{
+        padding-top: 35px;
+        font-size: 30px;
+        padding-bottom: 10px;
+    }
+    #price .price-plan h4:last-of-type{
+        font-size: 45px;
+    }
+    #price .price-plan p{
+        padding-top: 10px;
+        font-size: 15px;
+    }
+    #price .price-plan .cta-btn{
+        font-size: 18px;
+        line-height: 45px;
+        margin-bottom: -27px;
+        width: 160px;
+        margin-left: 28px;
+
+    }
+    /* ===========   price   ============== */
+
+    /* ===========   info   ============== */
+
+    #info{
+        padding-top: 0;
+        padding-bottom: 70px;
+    }
+    
+    #info .scrollbox-bar{
+        /* display: none ; */
+        right: -26px;
+    }
+    #info .scrollbox-vertical-rail{
+        /* display: none; */
+        right: -20px;
+    }
+    #info header:last-of-type{
+        padding-top: 55px;
+    }
+    
+    /* ===========   info   ============== */
+
+    /* ===========   subscribe   ============== */
+    #subscribe button{
+        right: 129px;
+        top: 54px;
+    }
+    #subscribe .payment{
+        margin-left: 0;
+        margin-top: 25px;
+    }
+    #subscribe h4{
+        padding-bottom: 15px;
+    }
+    /* ===========   subscribe   ============== */
+
+    /* ===========   footer   ============== */
+    footer .footer-item{
+        margin-bottom: 45px;
+    }
+   
+    /* ===========   footer   ============== */
+
+}
