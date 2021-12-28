@@ -27,7 +27,7 @@
     }
     .navbar .navbar-toggler{
         position: absolute;
-        top: 80px;
+        top: 60px;
         right: 12px;
         border-color: #612bdd;
         color: #612bdd;
@@ -280,7 +280,7 @@
 }
 .navbar .navbar-toggler{
     position: absolute;
-    top: 80px;
+    top: 60px;
     right: 12px;
     border-color: #612bdd;
     color: #612bdd;
@@ -525,7 +525,7 @@
     }
     .navbar .navbar-toggler{
         position: absolute;
-        top: 80px;
+        top: 60px;
         right: 12px;
         border-color: #612bdd;
         color: #612bdd;
