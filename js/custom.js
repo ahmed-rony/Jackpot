@@ -88,5 +88,22 @@ $(document).ready(function(){
      }, 1500);
    })
 
+  //  spin tilt plugin   ==============;
+
+  const tilt = $('.js-tilt').tilt();
+
+  // wow js    =================;
+
+  new WOW().init();
+
+  // smooth momentum scrolling    ===========;
+
+  butter.init({
+    wrapperId: 'butter',
+    wrapperDamper: 0.06,
+    cancelOnTouch: true,
+  });
+  
+
 
 });
